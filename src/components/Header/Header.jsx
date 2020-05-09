@@ -1,7 +1,7 @@
 import React from 'react';
-import './header.css';
+import './Header.css';
 import { Link } from 'gatsby';
-import Config from '../../../data/SiteConfig';
+// import Config from '../../../data/SiteConfig';
 
 const Header = () => {
 	return (
@@ -16,7 +16,7 @@ const Header = () => {
 						<Link to="/">Home</Link>
 					</li>
 					<li>
-						<a href="#">Portfolio</a>
+						<a href="#portfolio">Portfolio</a>
 					</li>
 					<li>
 						<Link to="/blog">Blog</Link>

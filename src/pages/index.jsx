@@ -1,15 +1,10 @@
 import React from 'react';
-// import Footer from '../components/Footer/Footer';
-// import Config from '../../data/SiteConfig';
-import MainLayout from '../layout/index';
+import Portfolio from '../components/Portfolio/Portfolio';
 
 const HomePage = () => {
 	return (
 		<>
-			<MainLayout />
-			{/* <div>This is home Page</div> */}
-
-			{/* <Footer config={Config} /> */}
+			<Portfolio />
 		</>
 	);
 };
