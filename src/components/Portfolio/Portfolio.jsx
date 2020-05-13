@@ -7,21 +7,7 @@ import { Link } from 'gatsby';
 const Portfolio = () => {
 	return (
 		<>
-			<section className="header">
-				<div class="content">
-					<div>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt dignissimos adipisci ex cum
-						totam consequuntur, aliquam architecto et perferendis iste est rerum repudiandae quo recusandae
-						itaque? Cum quis placeat minima modi vel enim asperiores, quae reprehenderit reiciendis libero
-						assumenda a ab unde neque repellat, aperiam vitae magni veritatis? Laborum omnis non quos facere
-						reprehenderit doloremque quae quisquam! Dicta nostrum voluptate velit cupiditate adipisci
-						laudantium ullam voluptas, sequi, voluptatum eligendi doloribus, accusantium tenetur harum
-						deleniti doloremque obcaecati officiis. Provident pariatur, sit quidem quam cupiditate molestiae
-						consectetur? Incidunt, consectetur. At quo ducimus odio, ab provident error voluptate
-						praesentium magni asperiores minus.
-					</div>
-				</div>
-			</section>
+			<header className="header"></header>
 			<nav className="navigation">
 				<div className="header-logo">&lt;JALAJ/&gt;</div>
 				<ul>
@@ -39,6 +25,14 @@ const Portfolio = () => {
 					</li>
 				</ul>
 			</nav>
+			<section>
+				<div className="text">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque consectetur nulla fuga ab laborum
+					exercitationem consequatur veniam, similique error unde dolorem repudiandae natus adipisci beatae
+					nemo dicta culpa? Odio repellat accusamus voluptates adipisci, cum sit eaque. Ipsam maiores
+					voluptate voluptatum aliquam, quae earum sapiente reiciendis, rerum eum accusantium quo, et
+				</div>
+			</section>
 		</>
 	);
 };

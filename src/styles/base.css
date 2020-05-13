@@ -3,10 +3,14 @@
 *::after {
 	margin: 0;
 	padding: 0;
-	box-sizing: inherit;
+	box-sizing: border-box;
 }
 
 html {
 	box-sizing: border-box;
 	font-size: 62.5%;
+}
+
+#___gatsby #gatsby-focus-wrapper {
+	min-width: 100%;
 }
