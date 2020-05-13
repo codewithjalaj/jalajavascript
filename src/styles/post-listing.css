@@ -1,0 +1,7 @@
+.post-listing {
+	max-width: 800px;
+	background-color: #fff;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+	padding: 3rem;
+	margin: 1rem 0 1rem 0;
+}

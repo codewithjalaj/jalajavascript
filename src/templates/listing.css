@@ -1,6 +1,6 @@
-/* .listing-container {
+.listing-container {
 	min-height: 100%;
-	min-width: 60%;
+	/* min-width: 60%; */
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -14,4 +14,4 @@
 	min-width: 100%;
 	display: flex;
 	justify-content: space-between;
-} */
+}
