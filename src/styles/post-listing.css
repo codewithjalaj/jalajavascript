@@ -1,7 +1,18 @@
 .post-listing {
 	max-width: 800px;
 	background-color: #fff;
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-	padding: 3rem;
-	margin: 1rem 0 1rem 0;
+	box-shadow: 0 10px 20px 1px rgba(0, 0, 0, 0.2);
+	padding: 0 0 3rem 0;
+	margin: 2rem 0 1rem 0;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out;
+}
+
+.post-listing:hover {
+	transform: scale(1.04);
+}
+
+.post-img {
+	max-width: 100%;
 }
