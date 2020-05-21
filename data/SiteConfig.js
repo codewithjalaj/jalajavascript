@@ -4,7 +4,7 @@ const config = {
 	siteTitleAlt: 'GatsbyJS Advanced Starter', // Alternative site title for SEO.
 	siteLogo: '/logos/logo-1024.png', // Logo used for SEO and manifest.
 	siteUrl: 'https://gatsby-advanced-starter-demo.netlify.com', // Domain of your website without pathPrefix.
-	pathPrefix: '/blog', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+	pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
 	siteDescription: 'A GatsbyJS stater with Advanced design in mind.', // Website description used for RSS feeds/meta description tag.
 	siteRss: '/rss.xml', // Path to the RSS file.
 	siteRssTitle: 'Gatsby Advanced Starter RSS feed', // Title of the RSS feed
