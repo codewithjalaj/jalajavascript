@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import '../../styles/post-listing.css';
+import './post-listing.css';
 
 class PostListing extends React.Component {
 	getPostList() {

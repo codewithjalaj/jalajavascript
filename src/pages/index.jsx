@@ -1,10 +1,10 @@
 import React from 'react';
-import Portfolio from '../components/Portfolio/Portfolio';
+import Layout from '../layout/index';
 
 const HomePage = () => {
 	return (
 		<>
-			<Portfolio />
+			<Layout></Layout>
 		</>
 	);
 };
