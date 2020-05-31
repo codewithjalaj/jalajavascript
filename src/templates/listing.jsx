@@ -18,16 +18,29 @@ class Listing extends React.Component {
 
 		return (
 			<div className="paging-container">
-				{!isFirstPage && <Link to={prevPage}>Previous</Link>}
+				{!isFirstPage && (
+					<Link className="pagination" to={prevPage}>
+						Previous
+					</Link>
+				)}
 				{[...Array(pageCount)].map((_val, index) => {
 					const pageNum = index + 1;
 					return (
-						<Link key={`listing-page-${pageNum}`} to={pageNum === 1 ? '/blog' : `/blog/${pageNum}/`}>
+						<Link
+							className="pagination"
+							activeClassName="page-active"
+							key={`listing-page-${pageNum}`}
+							to={pageNum === 1 ? '/blog' : `/blog/${pageNum}/`}
+						>
 							{pageNum}
 						</Link>
 					);
 				})}
-				{!isLastPage && <Link to={nextPage}>Next</Link>}
+				{!isLastPage && (
+					<Link className="pagination" to={nextPage}>
+						Next
+					</Link>
+				)}
 			</div>
 		);
 	}
@@ -43,8 +56,8 @@ class Listing extends React.Component {
 						<SEO />
 						<PostListing postEdges={postEdges} />
 					</div>
-					{this.renderPaging()}
 				</div>
+				{this.renderPaging()}
 				<Footer config={config} />
 			</Layout>
 		);

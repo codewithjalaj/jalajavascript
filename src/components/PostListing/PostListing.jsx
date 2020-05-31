@@ -23,7 +23,7 @@ class PostListing extends React.Component {
 	render() {
 		const postList = this.getPostList();
 		return (
-			<div>
+			<>
 				{/* Your post list here. */
 				postList.map((post) => (
 					<>
@@ -35,7 +35,7 @@ class PostListing extends React.Component {
 						</div>
 					</>
 				))}
-			</div>
+			</>
 		);
 	}
 }
