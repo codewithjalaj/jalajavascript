@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Righteous&display=swap');
+
+.homepage {
+	--davys-grey: hsla(90, 2%, 32%, 0.5);
+	--orange-red-crayola: hsla(1, 62%, 95%, 0.6);
+	--naples-yellow: hsla(48, 60%, 100%, 1);
+	--cg-blue: hsla(198, 78%, 63%, 1);
+	--green-sheen: hsla(170, 42%, 76%, 1);
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../assets/homepage-bg.png');
+	background-repeat: no-repeat;
+	background-position: right;
+
+	position: relative;
+	color: #c7f9cc;
+	font-size: 2rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.homepage__logo {
+	font-family: 'Righteous', cursive;
+	font-size: 5rem;
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+}
+
+.homepage__navigation {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+.homepage__contact {
+	position: absolute;
+	bottom: 1rem;
+	left: 1rem;
+}
+
+.homepage__social {
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+}
+
+.homepage__intro {
+	font-family: 'Comfortaa', cursive;
+	color: #22577a;
+	margin-right: 40%;
+	font-size: 3.8rem;
+	display: block;
+	width: 600px;
+}
+
+.homepage__intro span {
+	display: block;
+}
+
+@media only screen and (max-width: 600px) {
+	.homepage {
+		background-image: none;
+	}
+	.homepage__intro {
+		margin-left: auto;
+	}
+}

@@ -2,7 +2,8 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import config from '../../data/SiteConfig';
 import './index.css';
-import Navigation from './../components/Navigation/Navigation';
+import '../styles/base.css';
+// import Navigation from './../components/Navigation/Navigation';
 
 export default class Layout extends React.Component {
 	render() {
@@ -13,7 +14,7 @@ export default class Layout extends React.Component {
 					<meta name="description" content={config.siteDescription} />
 					<html lang="en" />
 				</Helmet>
-				<Navigation />
+				{/* <Navigation /> */}
 				{children}
 			</div>
 		);

@@ -13,10 +13,10 @@ const config = {
 	disqusShortname: 'https-vagr9k-github-io-gatsby-advanced-starter', // Disqus shortname.
 	dateFromFormat: 'YYYY-MM-DD', // Date format used in the frontmatter.
 	dateFormat: 'DD/MM/YYYY', // Date format for display.
-	postsPerPage: 2, // Amount of posts displayed per listing page.
+	postsPerPage: 1, // Amount of posts displayed per listing page.
 	userName: 'Advanced User', // Username to display in the author segment.
 	userEmail: 'AdvancedUser@example.com', // Email used for RSS feed's author segment
-	userTwitter: '', // Optionally renders "Follow Me" in the UserInfo segment.
+	userTwitter: 'codewithjalaj', // Optionally renders "Follow Me" in the UserInfo segment.
 	userLocation: 'North Pole, Earth', // User location to display in the author segment.
 	userAvatar: 'https://api.adorable.io/avatars/150/test.png', // User avatar to display in the author segment.
 	userDescription:
