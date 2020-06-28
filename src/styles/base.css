@@ -10,6 +10,13 @@ html {
 	box-sizing: border-box;
 	font-size: 62.5%;
 }
+:root {
+	--davys-grey: hsla(90, 2%, 32%, 0.5);
+	--orange-red-crayola: hsla(1, 62%, 95%, 0.6);
+	--naples-yellow: hsla(48, 60%, 100%, 1);
+	--cg-blue: hsla(198, 78%, 63%, 1);
+	--green-sheen: hsla(170, 42%, 76%, 1);
+}
 
 #___gatsby #gatsby-focus-wrapper {
 	min-width: 100%;

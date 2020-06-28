@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Righteous&display=swap');
 
 .homepage {
-	--davys-grey: hsla(90, 2%, 32%, 0.5);
-	--orange-red-crayola: hsla(1, 62%, 95%, 0.6);
-	--naples-yellow: hsla(48, 60%, 100%, 1);
-	--cg-blue: hsla(198, 78%, 63%, 1);
-	--green-sheen: hsla(170, 42%, 76%, 1);
 	width: 100vw;
 	height: 100vh;
-	background-image: url('../assets/homepage-bg.png');
+	/* background-image: url('../assets/homepage-bg.png'); */
+	background-color: rgba(0, 0, 0, 0.7);
 	background-repeat: no-repeat;
 	background-position: right;
 
@@ -19,6 +15,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	perspective: 1200;
 }
 
 .homepage__logo {

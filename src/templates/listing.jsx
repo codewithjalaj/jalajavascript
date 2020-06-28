@@ -7,6 +7,7 @@ import SEO from '../components/SEO/SEO';
 import config from '../../data/SiteConfig';
 import './listing.css';
 import Footer from './../components/Footer/Footer';
+import { motion } from 'framer-motion';
 
 class Listing extends React.Component {
 	renderPaging() {
@@ -50,15 +51,17 @@ class Listing extends React.Component {
 
 		return (
 			<Layout>
-				<div className="listing-container">
-					<div className="posts-container">
-						<Helmet title={config.siteTitle} />
-						<SEO />
-						<PostListing postEdges={postEdges} />
+				<motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 0.6 }}>
+					<div className="listing-container">
+						<div className="posts-container">
+							<Helmet title={config.siteTitle} />
+							<SEO />
+							<PostListing postEdges={postEdges} />
+						</div>
 					</div>
-				</div>
-				{this.renderPaging()}
-				<Footer config={config} />
+					{this.renderPaging()}
+					<Footer config={config} />
+				</motion.div>
 			</Layout>
 		);
 	}
