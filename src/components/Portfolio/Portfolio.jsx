@@ -6,9 +6,9 @@ import './portfolio.css';
 
 const Portfolio = () => {
 	return (
-		<>
+		<div>
 			<Helmet title={`Jalaj`} />
-		</>
+		</div>
 	);
 };
 
